@@ -18,9 +18,11 @@
     transition: 
       background-color .2s ease-in-out, 
       color .2s ease-in-out;
+      
+      &:hover {
+        color: $white;
+        background-color: $primary-color;
+      }
   }
   
-  .nav-link:hover {
-    color: $white;
-    background-color: $primary-color;
-  }
+  

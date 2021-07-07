@@ -14,20 +14,40 @@
   
   .default {
     background-color: $secondary-color;
+    &:hover {
+      background-color: lighten($color: $secondary-color, $amount: 15%);
+      transition: .3s ease-in;
+    }
   }
   
   .error {
     background-color: #e4757a;
+    &:hover {
+      background-color: lighten($color: #e4757a, $amount: 15%);
+      transition: .3s ease-in;
+    }
   }
   
   .info {
     background-color: $purplish-color;
+    &:hover {
+      background-color: lighten($color: $purplish-color, $amount: 15%);
+      transition: .3s ease-in;
+    }
   }
-  
+
   .success {
     background-color: #63cc82;
+    &:hover {
+      background-color: lighten($color: #63cc82, $amount: 15%);
+      transition: .3s ease-in;
+    }
   }
-  
+
   .warning {
     background-color: $orangish-color;
+    &:hover {
+      background-color: lighten($color: $orangish-color, $amount: 15%);
+      transition: .3s ease-in;
+    }
   }
